@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Piedra, Papel y Tijera</title>
+    <script>
+        //CREAR FUCNCIÓN RANDOM QUE MANEJE EL RANGO 1 AL 3
+        // hay que pasarle paramentos y los argumentos seria el rango
+        let juador = 0
+        let max = 3
+        let min = 1
+        let pc = Math.floor(Math.random()*(max-min+1)+min)
+        jugador = prompt("Elige: 1 piedra, 2 papel, 3 tijera")
+
+        if(jugador == 1){
+            alert("Elegiste piedra")
+        } else if (jugador == 2){
+            alert("Elegiste papel")
+        } else if (jugador == 3){
+            alert("Elegiste tijera")
+        } else {
+            alert("Elegiste perder")
+        }
+
+        //Combate
+        if (pc == jugador){
+            alert("EMPATE")
+        } else if (jugador == 1 && pc == 3){
+            alert("GANASTE")
+        } else if (jugador == 2 && pc == 1){
+            alert("GANASTE")
+        } else if (jugador == 3 && pc == 2){
+            alert("GANASTE")
+        } else {
+            alert("PERDISTE")
+        }
+
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
