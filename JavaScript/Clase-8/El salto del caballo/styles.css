@@ -1,0 +1,141 @@
+body {
+  margin: 0; padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fefefe;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: flex-start;
+  color: #1a1a1a;
+}
+
+.container {
+  width: 95vw;
+  max-width: 1200px;
+  margin-top: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  border: 2px solid #a2d5c6;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #a2d5c6 0%, #6abf69 100%);
+  color: #0b3d2e;
+  font-weight: 700;
+  font-size: 1.8rem;
+  animation: titleAnim 2s ease-in-out infinite alternate;
+}
+
+@keyframes titleAnim {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+.controls {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.controls label {
+  margin-right: 10px;
+  font-weight: 600;
+  color: #4b6f44;
+}
+
+.controls input[type="number"] {
+  width: 60px;
+  padding: 5px;
+  border: 2px solid #a2d5c6;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1rem;
+  color: #333;
+}
+
+.controls button {
+  margin-left: 10px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #6abf69;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+  background-color: #4b8a3e;
+}
+
+.boards-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.board {
+  display: grid;
+  border: 3px solid #a2d5c6;
+  border-radius: 8px;
+  background-color: #e7f4f1;
+  box-shadow: 0 4px 6px rgb(0 0 0 / 0.1);
+  user-select: none;
+}
+
+.board div {
+  border: 1px solid #8fbf9f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #2c4a36;
+  background-color: #b9dcc6;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  height: 45px;
+  width: 45px;
+}
+
+.board div.visited {
+  background-color: #82c496;
+  color: white;
+  font-weight: 700;
+}
+
+.board div.current {
+  background-color: #4b8a3e;
+  color: #fff;
+  font-weight: 900;
+  box-shadow: 0 0 8px #4b8a3e;
+}
+
+.index-board {
+  grid-template-columns: repeat(auto-fit, 35px);
+}
+
+.index-board div {
+  height: 35px;
+  width: 35px;
+  font-size: 0.9rem;
+  background-color: #d0f0dd;
+  border-color: #82c496;
+  color: #2c4a36;
+  font-weight: 600;
+}
+
+.index-board div.visited {
+  background-color: #6abf69;
+  color: white;
+  font-weight: 700;
+}
+
+.index-board div.current {
+  background-color: #4b8a3e;
+  color: #fff;
+  font-weight: 900;
+  box-shadow: 0 0 8px #4b8a3e;
+}
