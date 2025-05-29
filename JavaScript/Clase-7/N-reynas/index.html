@@ -1,0 +1,42 @@
+<!--
+El problema de las N Reinas: Tarea de 
+hoy, investigar como encontrar solución en JavaScript a este problema mediante un código js
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visualizador del problema de las N Reinas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="title-box">Visualizador del problema de las N Reinas</h1>
+
+    <div id="controls">
+      <label for="n">Tamaño N (mínimo 8):</label>
+      <input id="n" type="number" min="8" value="8" />
+      <button id="solveBtn">Resolver</button>
+      <button id="nextBtn" disabled>Siguiente solución</button>
+    </div>
+
+    <div id="info"></div>
+
+    <div class="boards-wrapper">
+      <div class="board-container">
+        <div class="board-title">Proceso</div>
+        <div id="boardProcess" class="board"></div>
+      </div>
+      <div class="board-container">
+        <div class="board-title">Solución</div>
+        <div id="boardFinal" class="board"></div>
+      </div>
+    </div>
+
+    <div id="indices"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
