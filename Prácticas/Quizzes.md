@@ -52,3 +52,18 @@ La respuesta correcta es la:
     e. Todas las respuestas
 
 
+📅 Fecha de entrega: 28/05/2025
+
+## ✅ Respuestas ✅
+
+1) Selecciona cuál de las opciones es una etiqueta estática que NO cambia en HTML: Respuesta correcta:a
+a.  <title>Tu Gran sitio Web</title>
+     </head>
+    <body>
+        <h1>Ideas web</h1>
+        <section id="seleccionar-producto">
+            <h2>Elge tus productos</h2>
+2) ¿Qué debemos recordar cuando creamos un botón en HTML para asociarlo en JS a la hora de utilizar este botón? Respuesta correcta:c
+c. El id que ponemos en HTML, para luego en Js utilizar el mismo nombre
+3) ¿Dónde debemos ubicar el script que referencia el archivo Js? Respuesta correcta:
+e. La respuesta No esta en las opciones: La mejor práctica moderna es poner el <script> al final del <body>.
