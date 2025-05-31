@@ -12,6 +12,8 @@ Somos un equipo de estudiantes de la **Universidad Tecnológica Nacional San Raf
 - Elias, Francisco
 - Ramos, Dilan
 - Rojas, Arón
-- 
+- Philama, Guardini
+
+
 ---
 ¡Gracias por visitar nuestro repositorio! 💙
