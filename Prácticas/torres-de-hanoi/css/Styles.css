@@ -1,0 +1,138 @@
+/* This file contains the styles for the Towers of Hanoi simulation. It defines the layout, colors, and visual effects for the body, rods, disks, controls, and message area. It also includes responsive styles for dark mode. */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.rods {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 250px;
+    margin: 20px 0;
+    position: relative;
+}
+
+.rod {
+    width: 120px;
+    height: 220px;
+    background: #eee;
+    border-radius: 8px;
+    position: relative;
+    border: 2px solid #bbb;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.rod::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 12px;
+    height: 180px;
+    background: #555;
+    border-radius: 6px;
+    transform: translateX(-50%);
+    z-index: 0;
+}
+
+.disk {
+    position: absolute;
+    height: 20px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 20px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    left: 0;
+    z-index: 1;
+    transition: all 0.3s;
+}
+
+.controls {
+    text-align: center;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: none;
+    background: #3498db;
+    color: #fff;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: #217dbb;
+}
+
+.message {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.rod-name {
+    position: absolute;
+    top: 6px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 15px;
+    font-weight: bold;
+    color: #555;
+    background: rgba(255,255,255,0.85);
+    padding: 2px 8px;
+    border-radius: 6px;
+    z-index: 2;
+    pointer-events: none;
+    user-select: none;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #333;
+        color: #f0f0f0;
+    }
+
+    .rod {
+        background-color: #444;
+        border-color: #888;
+    }
+
+    .rod::before {
+        background: #aaa;
+    }
+
+    .disk {
+        background-color: #1abc9c;
+    }
+
+    button {
+        background-color: #555;
+        color: #fff;
+    }
+}

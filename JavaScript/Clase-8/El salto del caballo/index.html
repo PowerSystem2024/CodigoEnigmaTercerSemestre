@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Visualizador: El salto del caballo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Visualizador: El salto del caballo</h1>
+    <div class="controls">
+      <label for="size">Tamaño del tablero (5 a 10):</label>
+      <input type="number" id="size" min="5" max="10" value="8" />
+      <button id="start">Iniciar Recorrido</button>
+      <button id="pause">Pausar</button>
+    </div>
+    <div class="boards-wrapper">
+      <div>
+        <h3>Tablero Estático (Recorrido completo)</h3>
+        <div id="boardStatic" class="board"></div>
+      </div>
+      <div>
+        <h3>Tablero Animado (Recorrido en proceso)</h3>
+        <div id="board" class="board"></div>
+      </div>
+      <div>
+        <h3>Tablero Índice de Posiciones</h3>
+        <div id="positionsIndexBoard" class="board index-board"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
