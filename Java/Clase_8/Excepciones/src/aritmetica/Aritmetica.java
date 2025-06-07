@@ -1,20 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package aritmetica;
 
-/**
- *
- * @author guardini
- */
-public class Aritmetica {
+import excepciones.OperacionExcepcion;
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public class Aritmetica {
+    public static int division(int numerador, int denominador) 
+        throws OperacionExcepcion {
+        
+        if(denominador == 0) {
+            throw new OperacionExcepcion("División entre cero");
+        }
+        return numerador / denominador;
     }
-    
 }
