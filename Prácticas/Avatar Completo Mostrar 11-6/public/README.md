@@ -4,7 +4,7 @@ Este proyecto es un juego web interactivo inspirado en la serie *Avatar: La Leye
 
 ---
 
-## Tecnologías utilizadas
+## Lenguajes y funcionalidades
 
 - **HTML**: estructura de la página, botones y selección de personajes.
 - **CSS**: estilos visuales, diseño centrado y colores.
