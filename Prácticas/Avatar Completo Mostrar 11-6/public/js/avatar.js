@@ -35,7 +35,7 @@ function seleccionarPersonajeJugador() {
 }
 
 function ataquePunio() {
-    ataqueJugador = "Punio";
+    ataqueJugador = "Puño";
     ataqueAleatorioEnemigo();
     combate();
 }
@@ -53,7 +53,7 @@ function ataqueBarrida() {
 }
 
 function ataqueAleatorioEnemigo() {
-    const ataques = ["Punio", "Patada", "Barrida"];
+    const ataques = ["Puño", "Patada", "Barrida"];
     const index = aleatorio(0, 2);
     ataqueEnemigo = ataques[index];
 }
