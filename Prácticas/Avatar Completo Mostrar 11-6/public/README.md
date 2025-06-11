@@ -52,4 +52,13 @@ Este proyecto es un juego web interactivo inspirado en la serie *Avatar: La Leye
 - Se agregó la función para seleccionar el ataque enemigo.
 - Se programó el sistema de combate entre jugador y enemigo, con vidas y resultados por turno.
 - Agregado de funciones: `combate()`, `mostrarResultado()`, `actualizarVidas()`, `finalizarJuego()` y `reiniciarJuego()`.
+
+---
+
+### 11 de junio
+
+- Se modificó el archivo CSS para mejorar la estética visual del sitio.
+- Se agregó un fondo con degradado y se centraron todos los elementos en pantalla.
+- Los botones y secciones fueron estilizados con bordes redondeados, sombras y colores.
+
  
