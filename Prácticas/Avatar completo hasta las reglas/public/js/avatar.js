@@ -35,7 +35,7 @@ function seleccionarPersonajeJugador() {
 }
 
 function ataquePunio() {
-    ataqueJugador = "Punio";
+    ataqueJugador = "Puño";
     ataqueAleatorioEnemigo();
     combate();
 }
@@ -53,7 +53,7 @@ function ataqueBarrida() {
 }
 
 function ataqueAleatorioEnemigo() {
-    const ataques = ["Punio", "Patada", "Barrida"];
+    const ataques = ["Puño", "Patada", "Barrida"];
     const index = aleatorio(0, 2);
     ataqueEnemigo = ataques[index];
 }
@@ -64,8 +64,8 @@ function combate() {
     if (ataqueJugador === ataqueEnemigo) {
         resultado = "Empate 🤝";
     } else if (
-        (ataqueJugador === "Punio" && ataqueEnemigo === "Barrida") ||
-        (ataqueJugador === "Patada" && ataqueEnemigo === "Punio") ||
+        (ataqueJugador === "Puño" && ataqueEnemigo === "Barrida") ||
+        (ataqueJugador === "Patada" && ataqueEnemigo === "Puño") ||
         (ataqueJugador === "Barrida" && ataqueEnemigo === "Patada")
     ) {
         resultado = "Ganaste el turno 🎉";
