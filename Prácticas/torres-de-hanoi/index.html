@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torres de Hanoi Simulación</title>
+    <link rel="stylesheet" href="css/Styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Torres de Hanoi</h1>
+        <div class="rods">
+            <div class="rod" id="rodA"></div>
+            <div class="rod" id="rodB"></div>
+            <div class="rod" id="rodC"></div>
+        </div>
+        <div class="controls">
+            <label for="numDisks">Discos:</label>
+            <input type="number" id="numDisks" min="1" max="8" value="3" style="width: 50px;">
+            <button id="startButton">Iniciar Simulación</button>
+            <button id="resetButton">Reiniciar</button>
+        </div>
+        <div class="message" id="messageArea"></div>
+    </div>
+    <script src="js/Ndiscos.js"></script>
+</body>
+</html>
