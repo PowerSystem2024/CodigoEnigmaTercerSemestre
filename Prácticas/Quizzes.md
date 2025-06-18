@@ -57,12 +57,6 @@ La respuesta correcta es la:
 ## ✅ Respuestas ✅
 
 1) Selecciona cuál de las opciones es una etiqueta estática que NO cambia en HTML: Respuesta correcta:a
-a. <!-- <title>Tu Gran sitio Web</title>
-     </head>
-    <body>
-        <h1>Ideas web</h1>
-        <section id="seleccionar-producto">
-            <h2>Elge tus productos</h2> -->
 2) ¿Qué debemos recordar cuando creamos un botón en HTML para asociarlo en JS a la hora de utilizar este botón? Respuesta correcta:c
 c. El id que ponemos en HTML, para luego en Js utilizar el mismo nombre
 3) ¿Dónde debemos ubicar el script que referencia el archivo Js? Respuesta correcta:
@@ -80,4 +74,4 @@ Respuesta: d. La utilizamos en Js para mostrar un String
 
 3. ¿Esta recomendado dentro de las buenas prácticas introducir document.getElementById('katara').checked dentro de una estructura if else y que sea la condición que gatille una elección?
 
-Respuesta:d. Como buenas prácticas se recomienda crear variables a las que se le asigne este código y que NO vayan a ningún condicional de esta f
+Respuesta:d. Como buenas prácticas se recomienda crear variables a las que se le asigne este código y que NO vayan a ningún condicional de esta forma.
