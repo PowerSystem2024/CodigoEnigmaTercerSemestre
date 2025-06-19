@@ -67,3 +67,11 @@ a.  <title>Tu Gran sitio Web</title>
 c. El id que ponemos en HTML, para luego en Js utilizar el mismo nombre
 3) ¿Dónde debemos ubicar el script que referencia el archivo Js? Respuesta correcta:
 e. La respuesta No esta en las opciones: La mejor práctica moderna es poner el <script> al final del <body>.
+
+Fecha de entrega: 11/06/2025
+
+## ✅ Respuestas ✅
+
+1) ¿Cuántas veces se puede usar la función aleatoria?	Respuesta correcta: c. Siempre, las veces necesarias	Justificación: No hay límites inherentes; se usa según necesidades del programa, como en juegos.
+2) ¿Cómo probar y depurar código? Respuesta correcta: c. Revisando paso a paso y línea por línea  Justificación:Práctica fundamental, usando depuradores, aplicable a cualquier lenguaje.
+3) ¿Variables en funciones se usan libremente? Respuesta correcta:b. No, solo las globales lo permiten Justificación: Variables locales no son accesibles fuera de la función; globales sí lo son.
