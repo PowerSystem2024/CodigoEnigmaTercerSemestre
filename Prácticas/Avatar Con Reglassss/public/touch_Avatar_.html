@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Avatar</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>AVATAR 👊🦵🤸💨</h1>
+
+    <!--SECCIÓN DE REGLAS -->
+    <section id="reglas-juego">
+        <h2>Reglas del Juego</h2>
+        <ul>
+            <li>Cada jugador (vos y la PC) comienza con 3 vidas.</li>
+            <li>Hay 4 personajes para elegir. La PC elegirá uno diferente al tuyo.</li>
+            <li>Los ataques disponibles son: Puño 👊, Patada 🦵 y Barrida 🤸💨.</li>
+            <li>Si ambos eligen el mismo ataque, es un empate 🤝.</li>
+            <li>Puño vence a Barrida.</li>
+            <li>Patada vence a Puño.</li>
+            <li>Barrida vence a Patada.</li>
+            <li>El primero que quede sin vidas pierde el juego.</li>
+        </ul>
+    </section>
+
+    <section id="seleccionar-personaje">
+        <h2>Elige tu Personaje</h2>
+
+        <input type="radio" name="personaje" id="Zuko">
+        <label for="Zuko">Zuko</label>
+
+        <input type="radio" name="personaje" id="Katara">
+        <label for="Katara">Katara</label>
+
+        <input type="radio" name="personaje" id="Aang">
+        <label for="Aang">Aang</label>
+
+        <input type="radio" name="personaje" id="Toph">
+        <label for="Toph">Toph</label>
+    
+        <button id="boton_personaje">Seleccionar</button>
+    </section>
+
+    <section id="seleccionar-ataque">
+        <h2>Elige tu ataque</h2>
+        <p>Tu personaje: <span id="personaje-jugador"></span> - Vidas: <span id="vidas-jugador">3</span></p>
+        <p>Personaje enemigo: <span id="personaje-enemigo"></span> - Vidas: <span id="vidas-enemigo">3</span></p>
+        
+        <button id="boton-punio">Puño 👊</button>
+        <button id="boton-patada">Patada 🦵</button>
+        <button id="boton-barrida">Barrida 🤸💨</button>
+    </section>
+
+    <section id="mensajes">
+        <div id="resultado"></div>
+    </section>
+
+    <section id="reiniciar">
+        <button id="boton-reiniciar">Reiniciar</button>
+    </section>
+
+    <script src="./js/avatar.js"></script>
+    
+</body>
+</html>
