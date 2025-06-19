@@ -77,7 +77,7 @@ Respuesta: d. La utilizamos en Js para mostrar un String
 
 Respuesta:d. Como buenas prácticas se recomienda crear variables a las que se le asigne este código y que NO vayan a ningún condicional de esta forma.
   
-Fecha de entrega: 11/06/2025
+📅 Fecha de entrega: 11/06/2025
 
 ## ✅ Respuestas ✅
 
@@ -85,4 +85,12 @@ Fecha de entrega: 11/06/2025
 2) ¿Cómo probar y depurar código? Respuesta correcta: c. Revisando paso a paso y línea por línea  Justificación:Práctica fundamental, usando depuradores, aplicable a cualquier lenguaje.
 3) ¿Variables en funciones se usan libremente? Respuesta correcta:b. No, solo las globales lo permiten Justificación: Variables locales no son accesibles fuera de la función; globales sí lo son.
  
+📅 Fecha de entrega: 18/06/2025
 
+## ✅ Respuestas ✅
+
+1) ¿Qué es más aconsejable, factorizar o crear desde cero? Respuesta correcta: a. Se aconseja que se factorice lo más que se pueda.
+
+2. ¿Qué significa para ti deployar? Respuesta correcta: a. Mover código para una buena ejecución.
+
+3. ¿Qué representa para ti una variable global? Respuesta correcta: b. Estas variables son las únicas variables que pueden ser utilizadas en cada parte del código, sin limitaciones.
