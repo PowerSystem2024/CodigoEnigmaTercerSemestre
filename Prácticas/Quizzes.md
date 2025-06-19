@@ -65,13 +65,24 @@ e. La respuesta No esta en las opciones: La mejor práctica moderna es poner el 
 📅 Fecha de entrega: 04/06/2025
 
 ## ✅ Respuestas ✅
-1. ¿Cuál es el significado de la palabra checked?
+  
+1) ¿Cuál es el significado de la palabra checked?
 Respuesta: d. Su significado es seleccionado
 
-2. En el juego de La leyenda de Aang: El Avatar ¿Para que utilizamos la función de de innerHTML?
+2) En el juego de La leyenda de Aang: El Avatar ¿Para que utilizamos la función de de innerHTML?
 
 Respuesta: d. La utilizamos en Js para mostrar un String
 
-3. ¿Esta recomendado dentro de las buenas prácticas introducir document.getElementById('katara').checked dentro de una estructura if else y que sea la condición que gatille una elección?
+3) ¿Esta recomendado dentro de las buenas prácticas introducir document.getElementById('katara').checked dentro de una estructura if else y que sea la condición que gatille una elección?
 
 Respuesta:d. Como buenas prácticas se recomienda crear variables a las que se le asigne este código y que NO vayan a ningún condicional de esta forma.
+  
+Fecha de entrega: 11/06/2025
+
+## ✅ Respuestas ✅
+
+1) ¿Cuántas veces se puede usar la función aleatoria?	Respuesta correcta: c. Siempre, las veces necesarias	Justificación: No hay límites inherentes; se usa según necesidades del programa, como en juegos.
+2) ¿Cómo probar y depurar código? Respuesta correcta: c. Revisando paso a paso y línea por línea  Justificación:Práctica fundamental, usando depuradores, aplicable a cualquier lenguaje.
+3) ¿Variables en funciones se usan libremente? Respuesta correcta:b. No, solo las globales lo permiten Justificación: Variables locales no son accesibles fuera de la función; globales sí lo son.
+ 
+
