@@ -1,0 +1,45 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>490</x><y>80</y><w>240</w><h>220</h></coordinates><panel_attributes>Persona
+--
+-id_persona: int
+-nombre: String
+-apellido: String
+-email: String
+--
++_str_(): String
++metodo Get/Set de cada atributo
+--
+Responsabilidades:
+Crear objetos de la entidad de Persona</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>440</y><w>400</w><h>200</h></coordinates><panel_attributes>PersonaDao
+--
+-SELECCIONAR: String
+-INSERTAR: String
+-ACTUALIZAR: String
+-ELIMINAR: _String_
+--
++ _seleccionar_(csl)
++ _insertar_(csl, persona)
++ _actualizar_(csl, persona)
++ _eliminar_(csl, persona)
+--
+Responsabilidades:
+Realizar las operaciones sobre la base de datos de la entidad Persona
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>50</x><y>80</y><w>290</w><h>230</h></coordinates><panel_attributes>Persona
+--
+-DATABASE: String
+-USERNAME: String
+-PASSWORD: String
+-DB PORT: String
+-HOST: String
+-conexion: connection
+-cursor: Cursor
+--
++obtenerConexion(cls): Connection
++obtenerCursor(cls): Cursor
++cerrar(cls)
+--
+Responsabilidades:
+Administrar la conexión a la base de datos</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>530</x><y>290</y><w>30</w><h>170</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;150;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>300</y><w>290</w><h>250</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>270;230;10;230;10;10</additional_attributes></element><element><id>UMLPackage</id><coordinates><x>30</x><y>10</y><w>840</w><h>680</h></coordinates><panel_attributes>acceso_Datos
+--
+
+group=group-0</panel_attributes><additional_attributes></additional_attributes></element></diagram>
