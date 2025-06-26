@@ -52,3 +52,45 @@ La respuesta correcta es la:
     e. Todas las respuestas
 
 
+📅 Fecha de entrega: 28/05/2025
+
+## ✅ Respuestas ✅
+
+1) Selecciona cuál de las opciones es una etiqueta estática que NO cambia en HTML: Respuesta correcta:a
+2) ¿Qué debemos recordar cuando creamos un botón en HTML para asociarlo en JS a la hora de utilizar este botón? Respuesta correcta:c
+c. El id que ponemos en HTML, para luego en Js utilizar el mismo nombre
+3) ¿Dónde debemos ubicar el script que referencia el archivo Js? Respuesta correcta:
+e. La respuesta No esta en las opciones: La mejor práctica moderna es poner el <script> al final del <body>.
+
+📅 Fecha de entrega: 04/06/2025
+
+## ✅ Respuestas ✅
+  
+1) ¿Cuál es el significado de la palabra checked?
+Respuesta: d. Su significado es seleccionado
+
+2) En el juego de La leyenda de Aang: El Avatar ¿Para que utilizamos la función de de innerHTML?
+
+Respuesta: d. La utilizamos en Js para mostrar un String
+
+3) ¿Esta recomendado dentro de las buenas prácticas introducir document.getElementById('katara').checked dentro de una estructura if else y que sea la condición que gatille una elección?
+
+Respuesta:d. Como buenas prácticas se recomienda crear variables a las que se le asigne este código y que NO vayan a ningún condicional de esta forma.
+  
+📅 Fecha de entrega: 11/06/2025
+
+## ✅ Respuestas ✅
+
+1) ¿Cuántas veces se puede usar la función aleatoria?	Respuesta correcta: c. Siempre, las veces necesarias	Justificación: No hay límites inherentes; se usa según necesidades del programa, como en juegos.
+2) ¿Cómo probar y depurar código? Respuesta correcta: c. Revisando paso a paso y línea por línea  Justificación:Práctica fundamental, usando depuradores, aplicable a cualquier lenguaje.
+3) ¿Variables en funciones se usan libremente? Respuesta correcta:b. No, solo las globales lo permiten Justificación: Variables locales no son accesibles fuera de la función; globales sí lo son.
+ 
+📅 Fecha de entrega: 18/06/2025
+
+## ✅ Respuestas ✅
+
+1) ¿Qué es más aconsejable, factorizar o crear desde cero? Respuesta correcta: a. Se aconseja que se factorice lo más que se pueda.
+
+2. ¿Qué significa para ti deployar? Respuesta correcta: a. Mover código para una buena ejecución.
+
+3. ¿Qué representa para ti una variable global? Respuesta correcta: b. Estas variables son las únicas variables que pueden ser utilizadas en cada parte del código, sin limitaciones.

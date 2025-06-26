@@ -1,0 +1,13 @@
+"""
+https://docs.python.org/3/howto/logging.html
+Pagina para revisar los diferentes tipos de Logins que existen
+
+Logging Levels:
+CRITICAL = 50
+ERROR = 40
+WARNING = 30
+INFO = 20
+DEBUG = 10
+NOTSET = 0
+"""
+
